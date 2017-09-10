@@ -5,3 +5,8 @@ function updateObjectWithKeyAndValue(object, key, value){
   newObj[key] = value;
   return newObj;
 }
+
+function dextructivelyUpdateObjectWithKeyAndValue(object, key, value){
+  object[key] = value;
+  return object;
+}
